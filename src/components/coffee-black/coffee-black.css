@@ -1,0 +1,9 @@
+.CoffeeBlack {
+	width: 200px;
+}
+.CoffeeBlack span {
+	display: inline-block;
+	background-color: #000;
+	width: 60px;
+	height: 1px;
+}
