@@ -1,0 +1,9 @@
+.coffee {
+	width: 200px;
+}
+.coffee span {
+	display: inline-block;
+	background-color: #fff;
+	width: 60px;
+	height: 1px;
+}
