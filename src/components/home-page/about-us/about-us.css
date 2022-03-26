@@ -1,13 +1,17 @@
-.AboutUs h2 {
+.aboutUs h2 {
 	margin-top: 80px;
 	font-weight: 400;
 	font-size: 24px;
 	line-height: 35px;
 }
 
-.AboutUs p {
+.aboutUs p {
 	margin-bottom: 100px;
 	max-width: 589px;
 	font-size: 14px;
 	line-height: 20px;
 }
+
+/* .AboutUs span {
+	background-color: #000 !important;
+} */
