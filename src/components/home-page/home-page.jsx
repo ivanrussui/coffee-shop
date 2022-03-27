@@ -1,3 +1,4 @@
+import Footer from '../footer/footer';
 import AboutUs from './about-us/about-us';
 import './home-page.css';
 import Menu from './menu/menu';
@@ -7,8 +8,11 @@ const HomePage = () => {
 	return(
 		<div className='homePage'>
 			<Menu/>
-			<AboutUs/>
-			<OurBest/>
+			<div className="container">
+				<AboutUs/>
+				<OurBest/>
+				<Footer/>
+			</div>
 		</div>
 	)
 }

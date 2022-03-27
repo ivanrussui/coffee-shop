@@ -5,10 +5,10 @@ import './our-best.css';
 const OurBest = () => {
   return (
     <div className="ourBest">
-      <div className="container">
+      {/* <div className="container"> */}
         <h2 className="text-center">Our best</h2>
 				<Cards/>
-      </div>
+      {/* </div> */}
     </div>
   );
 };

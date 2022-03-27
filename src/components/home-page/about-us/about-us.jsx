@@ -1,17 +1,12 @@
 import CoffeeBlack from '../../coffee-black/coffee-black';
-// import CoffeeWhite from '../../coffee-white/coffee-white';
-// import img2 from '../../../img/coffee-black.png';
 import './about-us.css';
 
-// debugger;
-// console.log(CoffeeWhite);
 const AboutUs = () => {
   return (
     <div className="aboutUs">
-      <div className="container">
+      {/* <div className="container"> */}
         <h2 className="text-center">About Us</h2>
 				<CoffeeBlack/>
-        {/* <CoffeeWhite /> */}
         <p className='mt-5 mx-auto text-center'>
           Extremity sweetness difficult behaviour he of. On disposal of as
           landlord horrible. Afraid at highly months do things on at. Situation
@@ -28,7 +23,7 @@ const AboutUs = () => {
           but nor are most gave hope. Secure active living depend son repair day
           ladies now.
         </p>
-      </div>
+      {/* </div> */}
     </div>
   );
 };
