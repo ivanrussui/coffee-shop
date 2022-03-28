@@ -1,12 +1,12 @@
 import Footer from '../footer/footer';
 import AboutUs from './about-us/about-us';
-import './home-page.css';
+import './main-page.css';
 import Menu from './menu/menu';
 import OurBest from './our-best/our-best';
 
-const HomePage = () => {
+const MainPage = () => {
 	return(
-		<div className='homePage'>
+		<div className='mainPage'>
 			<Menu/>
 			<div className="container">
 				<AboutUs/>
@@ -17,4 +17,4 @@ const HomePage = () => {
 	)
 }
 
-export default HomePage;
+export default MainPage;
