@@ -4,13 +4,15 @@ import './main-page.css';
 import Menu from './menu/menu';
 import OurBest from './our-best/our-best';
 
-const MainPage = () => {
+// debugger
+
+const MainPage = (props) => {
 	return(
 		<div className='mainPage'>
 			<Menu/>
 			<div className="container">
 				<AboutUs/>
-				<OurBest/>
+				<OurBest cards={props.cards} />
 				<Footer/>
 			</div>
 		</div>

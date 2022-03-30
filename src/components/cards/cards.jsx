@@ -5,19 +5,15 @@ import img3 from './../../img/bestItem3.jpg';
 import Card from './card/card';
 
 
+const Cards = (props) => {
 
-const Cards = () => {
 
-  let cards = [
-    {id: 1, title: 'Solimo Coffee Beans 2 kg', price: '10.73$'},
-    {id: 2, title: 'Presto Coffee Beans 1 kg', price: '15.99$'},
-    {id: 3, title: 'AROMISTICO Coffee 1 kg', price: '6.99$'}
-  ]
-
-  let cardsElements = cards.map(c => <Card key={c.id} title={c.title} price={c.price} />)
+  // debugger
+  let cardsElements = props.cards.map(c => <Card key={c.id} title={c.title} price={c.price}/>)
 
   return (
     <div className="cards row mt-4 justify-content-md-evenly">
+      {cardsElements}
       {/*<div className="col-md-3 offset-md-1">*/}
         {/*<div className="wrap">*/}
         {/*  <img src={img} alt="card" className="mx-auto d-block" />*/}
@@ -25,7 +21,6 @@ const Cards = () => {
         {/*  <div className="price text-end">10.73$</div>*/}
         {/*</div>*/}
         {/*<div className="wrap">*/}
-          {cardsElements}
         {/*</div>*/}
       {/*</div>*/}
       {/*<div className="col-md-3">*/}
