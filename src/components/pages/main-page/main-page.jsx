@@ -1,4 +1,4 @@
-import Footer from '../footer/footer';
+import Footer from '../../footer/footer';
 import AboutUs from './about-us/about-us';
 import './main-page.css';
 import Menu from './menu/menu';

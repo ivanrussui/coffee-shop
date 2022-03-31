@@ -1,0 +1,10 @@
+.menu2 {
+	background: url(./../../../../img/mainBg2.jpg) center center no-repeat;
+	min-height: 260px;
+}
+
+.menu2 h1 {
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 58px;
+}

@@ -1,6 +1,6 @@
 import './menu.css';
-import Header from '../../header/header';
-import CoffeeWhite from '../../coffee-white/coffee-white';
+import Header from '../../../header/header';
+import CoffeeWhite from '../../../coffee-white/coffee-white';
 
 const Menu = () => {
   return (
