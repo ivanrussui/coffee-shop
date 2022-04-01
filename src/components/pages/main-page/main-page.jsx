@@ -1,4 +1,3 @@
-import Footer from '../../footer/footer';
 import AboutUs from './about-us/about-us';
 import './main-page.css';
 import Menu from './menu/menu';
@@ -13,7 +12,6 @@ const MainPage = (props) => {
 			<div className="container">
 				<AboutUs/>
 				<OurBest cards={props.cards} />
-				<Footer/>
 			</div>
 		</div>
 	)
