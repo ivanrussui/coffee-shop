@@ -1,15 +1,15 @@
-import './menu2.css';
-import Header from '../../../header/header';
+import './header2.css';
+import Navbar from '../../../navbar/navbar';
 
-const Menu2 = () => {
+const Header2 = () => {
   return (
     <div className="menu2">
         <div className="container">
-          <Header />
+          <Navbar />
 					<h1 className='text-center text-white mt-5'>Our Coffee</h1>
         </div>
     </div>
   );
 };
 
-export default Menu2;
+export default Header2;

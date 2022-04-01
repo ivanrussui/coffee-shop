@@ -1,10 +1,10 @@
 import './coffee-page.css';
-import Menu2 from './menu2/menu2';
+import Header2 from './header2/header2';
 
 const CoffeePage = () => {
   return (
     <div className="coffeePage">
-      <Menu2/>
+      <Header2/>
       <div className="container">
       </div>
     </div>
