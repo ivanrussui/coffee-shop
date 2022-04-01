@@ -1,14 +1,16 @@
 import './coffee-page.css';
-import Header2 from './header2/header2';
+import Menu2 from './menu2/menu2';
+import Header from '../../header/header';
 
 const CoffeePage = () => {
   return (
     <div className="coffeePage">
-      <Header2/>
+      <Header/>
+      <Menu2/>
       <div className="container">
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default CoffeePage;

@@ -12,11 +12,9 @@ const App = (props) => {
     <div className="App">
       <Header/>
       <Routes>
-        <Route path='/' element={<MainPage cards={props.cards}/>} />
-        <Route path='/our-coffee' element={<CoffeePage/>} />
+        <Route path="/" element={<MainPage cards={props.cards}/>}/>
+        <Route path="/our-coffee" element={<CoffeePage/>}/>
       </Routes>
-      {/*  <MainPage cards={props.cards}/>*/}
-      {/*  <CoffeePage/>*/}
       <Footer/>
     </div>
   );
