@@ -1,12 +1,10 @@
-import './header.css';
-import Navbar from '../../../navbar/navbar';
+import './menu.css';
 import CoffeeWhite from '../../../coffee-white/coffee-white';
 
-const Header = () => {
+const Menu = () => {
   return (
     <div className="menu">
         <div className="container">
-          <Navbar />
 					<h1 className='text-center'>Everything You Love About Coffee</h1>
 					<CoffeeWhite/>
 					<h4 className="menu-subtitle text-center mt-4 text-light">We makes every day full of energy and taste</h4>
@@ -17,4 +15,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Menu;

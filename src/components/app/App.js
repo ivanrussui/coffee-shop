@@ -1,9 +1,9 @@
 import './App.css';
 import MainPage from '../pages/main-page/main-page';
 import CoffeePage from '../pages/coffee-page/coffee-page';
-import {Routes, Route} from 'react-router-dom';
-import Header from '../pages/main-page/header/header';
+import Header from '../header/header';
 import Footer from '../footer/footer';
+import {Routes, Route} from 'react-router-dom';
 
 // debugger;
 
@@ -12,9 +12,11 @@ const App = (props) => {
     <div className="App">
       <Header/>
       <Routes>
-        <Route path='/main' element={<MainPage cards={props.cards}/>} />
-        <Route path='/coffee' element={<CoffeePage/>} />
+        <Route path='/' element={<MainPage cards={props.cards}/>} />
+        <Route path='/our-coffee' element={<CoffeePage/>} />
       </Routes>
+      {/*  <MainPage cards={props.cards}/>*/}
+      {/*  <CoffeePage/>*/}
       <Footer/>
     </div>
   );

@@ -1,14 +1,15 @@
 .footer {
 	width: 355px;
-	height: 40px;
+	/*height: 40px;*/
+	/*margin-bottom: 30px !important;*/
 }
 
-.footer a {
-	text-decoration: none;
-	font-size: 12px;
-	line-height: 17px;
-}
+/*.footer a {*/
+/*	text-decoration: none;*/
+/*	font-size: 12px;*/
+/*	line-height: 17px;*/
+/*}*/
 
-.footer a:hover {
-	text-decoration: underline;
-}
+/*.footer a:hover {*/
+/*	text-decoration: underline;*/
+/*}*/
