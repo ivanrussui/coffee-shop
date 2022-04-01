@@ -12,7 +12,7 @@ const Cards = (props) => {
   let cardsElements = props.cards.map(c => <Card key={c.id} title={c.title} price={c.price}/>)
 
   return (
-    <div className="cards row mt-4 justify-content-md-evenly">
+    <div className="cards row mt-4 justify-content-md-between">
       {cardsElements}
       {/*<div className="col-md-3 offset-md-1">*/}
         {/*<div className="wrap">*/}

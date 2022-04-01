@@ -1,6 +1,7 @@
 .ourBest {
 	background: url(../../../../img/ourBestBg.jpg) center center no-repeat;
 	min-height: 495px;
+	padding: 0 320px;
 }
 
 .ourBest h2 {
