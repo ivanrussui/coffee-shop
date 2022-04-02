@@ -12,9 +12,7 @@ const MainPage = (props) => {
 			<Header/>
 			<Menu/>
 			<div className="container">
-
 				<AboutUs/>
-
 			</div>
 			<OurBest cards={props.cards} />
 		</div>

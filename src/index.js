@@ -2,8 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './components/app/App';
-import {BrowserRouter} from 'react-router-dom';
-
 
 let cards = [
   {id: 1, title: 'Solimo Coffee Beans 2 kg', price: '10.73$'},
@@ -13,9 +11,6 @@ let cards = [
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
     <App cards={cards} />
-    </BrowserRouter>
-  </React.StrictMode>,
-  document.getElementById('root')
+  </React.StrictMode>, document.getElementById('root')
 );
