@@ -9,7 +9,7 @@ import Header from '../../header/header';
 const MainPage = (props) => {
 	return(
 		<div className='mainPage'>
-			<Header/>
+			{/*/!*<Header/>*!/ не уверен что тут хэдэр нужен и без него все норм */}
 			<Menu/>
 			<div className="container">
 				<AboutUs/>
