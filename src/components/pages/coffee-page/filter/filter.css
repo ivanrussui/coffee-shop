@@ -1,0 +1,25 @@
+.filter {
+  margin-left: 83px;
+}
+
+.filterText {
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  margin-right: 35px;
+}
+
+.filter button {
+  width: 75px;
+  background: #FFFFFF;
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 4px 0px 0px 4px;
+  font-size: 12px;
+  line-height: 17px;
+  margin-right: 5px;
+  /*text-align: center;*/
+}
+
+.filter button:last-child {
+  margin-right: 0;
+}
