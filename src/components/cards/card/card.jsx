@@ -3,7 +3,6 @@ import img from '../../../img/bestItem.jpg';
 // import img3 from './../../img/bestItem3.jpg';
 
 const Card = (props) => {
-
   return (
     <>
       <div className="col-md-3">

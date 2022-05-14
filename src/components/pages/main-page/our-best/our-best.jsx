@@ -6,7 +6,7 @@ const OurBest = (props) => {
     <div className="ourBest">
       {/* <div className="container"> */}
         <h2 className="text-center">Our best</h2>
-				<Cards cards={props.cards} />
+        <Cards cards={props.cards} />
       {/* </div> */}
     </div>
   );

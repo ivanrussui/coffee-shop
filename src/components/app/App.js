@@ -5,20 +5,19 @@ import Header from '../header/header';
 import Footer from '../footer/footer';
 import {Routes, Route, BrowserRouter} from 'react-router-dom';
 
-// debugger;
-
 const App = (props) => {
+  // debugger;
   return (
-    <div className="App">
-      <BrowserRouter>
-      <Header/>
-      <Routes>
-        <Route path="/" element={<MainPage cards={props.cards}/>}/>
-        <Route path="/our-coffee/*" element={<CoffeePage/>}/>
-      </Routes>
-      <Footer/>
-    </BrowserRouter>
-    </div>
+      <div className="App">
+        <BrowserRouter>
+          <Header/>
+          <Routes>
+            <Route path="/" element={<MainPage cards={props.cards}/>}/>
+            <Route path="/our-coffee/*" element={<CoffeePage cards2={props.cards2}/>}/>
+          </Routes>
+          <Footer/>
+        </BrowserRouter>
+      </div>
   );
 };
 
