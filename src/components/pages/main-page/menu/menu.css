@@ -31,4 +31,12 @@ button {
   font-weight: 700;
   font-size: 14px;
   line-height: 20px;
+  transition: .3s ease-in-out;
+}
+
+.menu button:hover {
+  filter: drop-shadow(5px 5px 15px rgba(255, 255, 255, 0.25));
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  box-shadow: 10px 10px 15px rgba(255, 255, 255, 0.25);
+  background: #000000 !important;
 }
