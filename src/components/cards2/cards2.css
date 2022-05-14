@@ -1,0 +1,40 @@
+.cards2 {
+  min-height: 495px;
+  padding: 0 320px;
+}
+
+.cards2 .col-md-4 {
+  margin: 30px 0;
+  width: 220px;
+  height: 260px;
+  border-radius: 8px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  transition: .2s ease-in-out;
+}
+
+.cards2 .col-md-4:hover {
+  filter: drop-shadow(5px 5px 15px rgba(0, 0, 0, 0.25));
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.25);
+}
+
+.cards2 h6 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.cards2 h5 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.cards2 .price {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+}
+

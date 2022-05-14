@@ -1,8 +1,3 @@
-.cards .cards3 {
-	margin-right: 8.33333333% !important;
-	margin-left: 0 !important;
-}
-
 .cards .col-md-3 {
 	width: 220px;
 	height: 240px;
@@ -41,6 +36,6 @@
 	object-fit: cover;
 }
 
-.cards .img3 {
-	padding-top: 37px;
-}
+/*.cards .img3 {*/
+/*	padding-top: 37px;*/
+/*}*/

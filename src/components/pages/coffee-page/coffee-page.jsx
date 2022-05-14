@@ -19,8 +19,8 @@ const CoffeePage = (props) => {
           <Search/>
           <Filter/>
         </section>
-        <Cards2 cards2={props.cards2} />
       </div>
+      <Cards2 cards2={props.cards2} />
     </div>
   );
 };

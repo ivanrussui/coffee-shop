@@ -7,7 +7,6 @@ const Card = (props) => {
     <>
       <div className="col-md-3">
         <div className="wrap">
-          {/*<img src={props.img} alt="card" className="mx-auto d-block"/>*/}
           <img src={img} alt="card" className="mx-auto d-block"/>
           <h6 className="text-center mt-3">{props.title}</h6>
           <div className="price text-end">{props.price}</div>
