@@ -1,4 +1,3 @@
-// import './about-our-goods.css';
 import img from '../../img/aboutOurGoodsBg.jpg'
 import CoffeeBlack from '../coffee-black/coffee-black';
 
