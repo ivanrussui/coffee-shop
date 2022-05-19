@@ -12,7 +12,7 @@ const Navbar = () => {
         <img src={img} alt="coffee-beans" />
         Coffee house</NavLink>
       <NavLink to='/our-coffee' className='text-light'>Our coffee</NavLink>
-      <NavLink to='/' className='text-light'>For your pleasure</NavLink>
+      <NavLink to='/for-your-pleasure' className='text-light'>For your pleasure</NavLink>
     </nav>
   );
 };
