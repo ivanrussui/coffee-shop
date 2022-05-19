@@ -1,4 +1,4 @@
-import Cards from '../../../cards/cards';
+import Cards from '../cards/cards';
 import './our-best.css';
 
 const OurBest = (props) => {

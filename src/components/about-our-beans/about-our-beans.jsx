@@ -1,6 +1,6 @@
 import './about-our-beans.css';
-import img from '../../../../img/aboutOurBeansBg.jpg'
-import CoffeeBlack from '../../../coffee-black/coffee-black';
+import img from '../../img/aboutOurBeansBg.jpg'
+import CoffeeBlack from '../coffee-black/coffee-black';
 
 const AboutOurBeans = () => {
   return (

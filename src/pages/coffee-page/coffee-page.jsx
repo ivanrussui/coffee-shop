@@ -1,10 +1,10 @@
 import './coffee-page.css';
-import Menu2 from './menu2/menu2';
-import Header from '../../header/header';
-import AboutOurBeans from './about-our-beans/about-our-beans';
-import Search from './search/search';
-import Filter from './filter/filter';
-import Cards2 from "../../cards2/cards2";
+import Menu2 from '../../components/menu2/menu2';
+// import Header from '../../components/header/header';
+import AboutOurBeans from '../../components/about-our-beans/about-our-beans';
+import Search from '../../components/search/search';
+import Filter from '../../components/filter/filter';
+import Cards2 from "../../components/cards2/cards2";
 
 const CoffeePage = (props) => {
   // debugger;

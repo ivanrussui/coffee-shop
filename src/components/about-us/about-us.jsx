@@ -1,4 +1,4 @@
-import CoffeeBlack from '../../../coffee-black/coffee-black';
+import CoffeeBlack from '../coffee-black/coffee-black';
 import './about-us.css';
 
 const AboutUs = () => {

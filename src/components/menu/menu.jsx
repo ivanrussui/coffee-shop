@@ -1,5 +1,5 @@
 import './menu.css';
-import CoffeeWhite from '../../../coffee-white/coffee-white';
+import CoffeeWhite from '../coffee-white/coffee-white';
 
 const Menu = () => {
   return (
