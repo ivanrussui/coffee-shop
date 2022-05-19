@@ -15,7 +15,7 @@ const App = (props) => {
           <Routes>
             <Route path="/" element={<MainPage cards={props.cards}/>}/>
             <Route path="/our-coffee/*" element={<CoffeePage cards2={props.cards2}/>}/>
-            <Route path="/for-your-pleasure/*" element={<PleasurePage/>}/>
+            <Route path="/for-your-pleasure/*" element={<PleasurePage cards2={props.cards2} />}/>
           </Routes>
           <Footer/>
         </BrowserRouter>
