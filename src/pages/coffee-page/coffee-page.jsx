@@ -1,9 +1,9 @@
-import './coffee-page.css';
 import Menu2 from '../../components/menu2/menu2';
 import AboutOurBeans from '../../components/about-our-beans/about-our-beans';
 import Search from '../../components/search/search';
 import Filter from '../../components/filter/filter';
 import Cards2 from "../../components/cards2/cards2";
+import Divider from "../../components/divider/divider";
 
 const CoffeePage = (props) => {
   // debugger;
@@ -12,7 +12,7 @@ const CoffeePage = (props) => {
       <Menu2/>
       <div className="container">
         <AboutOurBeans/>
-        <div className="divider"></div>
+        <Divider/>
         <section className="searchFilter d-flex justify-content-center">
           <Search/>
           <Filter/>
